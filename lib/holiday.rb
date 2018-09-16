@@ -71,7 +71,7 @@ def all_supplies_in_holidays(holiday_hash)
     holiday.each do |supplies|
       
         if output_string == ""
-          output_string += supplies.join("")
+          puts output_string += supplies.join("")
         else
           output_string += ", #{supplies}"
         end
