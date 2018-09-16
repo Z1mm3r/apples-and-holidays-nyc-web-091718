@@ -76,9 +76,9 @@ def all_supplies_in_holidays(holiday_hash)
           output_string += ", #{supplies}"
         end
     end
-    
-    puts "  #{holiday.keys}:# {output_string}"
     binding.pry
+    puts "  #{holiday.keys}:# {output_string}"
+ 
   end
 
 end
