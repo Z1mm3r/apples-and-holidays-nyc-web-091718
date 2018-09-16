@@ -79,13 +79,20 @@ def all_supplies_in_holidays(holiday_hash)
         end
       end
       puts "  #{holiday_name.to_s.capitalize.gsub('_', ' ').split.map(&:capitalize).join(" ")}: #{output_string}"
+      #Needs to... replace underscores...make each word uppercase from holiday_name
     end
   end
 end
 
 def all_holidays_with_bbq(holiday_hash)
-  # return an array of holiday names (as symbols) where supply lists
-  # include the string "BBQ"
+  
+  holiday_hash.each do |season, holiday|
+    holiday.each do |holiday_name, supplies|
+      if supplies.include("")
+    end
+    
+  end
+  
 end
 
 
