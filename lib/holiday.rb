@@ -76,7 +76,7 @@ def all_supplies_in_holidays(holiday_hash)
         end
     end
     
-    puts "  #{holiday.to_s.capitalize}:# {output_string}"
+    puts "  #{holiday.to_s}:# {output_string}"
     
   end
 
