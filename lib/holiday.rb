@@ -69,9 +69,9 @@ def all_supplies_in_holidays(holiday_hash)
     output_string = ""
    
     holiday.each do |supplies|
-      
+        puts supplies
         if output_string == ""
-          puts output_string += supplies.join("")
+          output_string += supplies.join("")
         else
           output_string += ", #{supplies}"
         end
