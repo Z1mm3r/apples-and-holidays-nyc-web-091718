@@ -78,11 +78,8 @@ def all_supplies_in_holidays(holiday_hash)
           output_string += ", #{supply_name}"
         end
       end
-      
+      puts "  #{holiday.keys}: #{output_string}"
     end
-   
-    "
- 
   end
   
 
